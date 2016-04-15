@@ -50,13 +50,13 @@ a{
     display: flex;
     flex-direction: column;
     padding-top: 1em;
-    max-width: 500px
+    max-width: 500px;
+    flex: 1 0 0;
 }
 #content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 1 0 0;
 }
 #title {
     flex: 1;
