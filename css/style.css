@@ -60,7 +60,7 @@ a{
 #title {
     flex: 1;
 }
-@media (max-width: 890px) {
+@media (max-width: 1024px) {
   #wrapper {
     padding-top: 13em;
   }
