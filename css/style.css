@@ -1,8 +1,3 @@
-@media (max-width: 760px) {
-  body {
-    display: block;
-  }
-}
 html, body{
     width: 100%;
     height: 100%;
@@ -63,4 +58,9 @@ a{
 }
 #title {
     flex: 1;
+}
+@media (max-width: 890px) {
+  body {
+    display: block!important;
+  }
 }
