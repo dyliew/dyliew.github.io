@@ -27,8 +27,7 @@ a{
 }
 #wrapper{
     max-width: 1024px;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding: 0 3em 2em 3em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,7 +43,7 @@ a{
     height: 100%;
     position: absolute;
     left: 0;
-    z-index: 0;
+    z-index: -1;
 }
 #contacts {
     display: flex;

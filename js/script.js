@@ -9,7 +9,14 @@
 			        proximity: 300,
 			        density: 30000
 			    });
-			}, 0)
+			}, 0);
+		} else {
+			var wrapper = document.getElementById('wrapper');
+			if (wrapper) {
+				wrapper.style['border-width'] = '2 0 2 0';
+				wrapper.style['border-style'] = 'dashed';
+				wrapper.style['border-color'] = 'darkslategray';
+			}
 		}
 	});
 }, false);
