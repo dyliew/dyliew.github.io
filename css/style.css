@@ -49,7 +49,6 @@ a{
     display: flex;
     flex-direction: column;
     padding-top: 1em;
-    max-width: 500px;
     flex: auto;
 }
 #content {
@@ -60,7 +59,7 @@ a{
 #title {
     flex: 1;
 }
-@media (max-width: 1024px) {
+@media (max-width: 890px) {
   #wrapper {
     border-style: none!important;
   }
