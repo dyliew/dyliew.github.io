@@ -62,6 +62,6 @@ a{
 }
 @media (max-width: 1024px) {
   #wrapper {
-    padding-top: 13em;
+    /* padding-top: 13em; */
   }
 }
