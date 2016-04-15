@@ -64,4 +64,7 @@ a{
   #wrapper {
     /* padding-top: 13em; */
   }
+  body {
+    display: block;
+  }
 }
