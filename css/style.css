@@ -63,6 +63,7 @@ a{
 @media (max-width: 1024px) {
   #wrapper {
     /* padding-top: 13em; */
+    border-style: none;
   }
   body {
     display: block;
