@@ -60,7 +60,7 @@ a{
     flex: 1;
 }
 @media (max-width: 890px) {
-  body {
-    display: block!important;
+  #wrapper {
+    padding-top: 8em;
   }
 }
