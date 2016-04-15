@@ -32,7 +32,6 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    flex: 1 0 0;
 }
 #particles {
     -webkit-filter: blur(2px);
