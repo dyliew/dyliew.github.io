@@ -27,6 +27,7 @@ a{
 }
 #wrapper{
     max-width: 890px;
+    min-width: 340px;
     padding: 0 3em 2em 3em;
     display: flex;
     flex-wrap: wrap;
