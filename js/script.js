@@ -4,10 +4,11 @@
 		if (item !== 'particle=true')
 			return;
 
-		var background = document.getElementById('background');
+		var background = document.getElementById('background-image');
 		background.style.display = 'none';
+
 		setTimeout(function(){
-			particleground(document.getElementById('particles'), {
+			particleground(document.getElementById('background-particles'), {
 	        	dotColor: '#C0DEFC',
 		        lineColor: '#c0c0fc',
 		        proximity: 300,

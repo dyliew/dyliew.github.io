@@ -7,31 +7,28 @@ html {
 body {
     margin: 0;
 }
-#background {
-    background-image: url('../img/tile-small.png');
-    background-repeat: repeat;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+.background {
     position: fixed;
     left: 0;
     z-index: -1;
     width: 100%;
     height: 100%;
 }
-#particles {
+#background-image {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    background-image: url('../img/tile-small.png');
+    background-repeat: repeat;
+}
+#background-particles {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    left: 0;
-    z-index: -1;
 }
 #myimage{
     padding:1px;
