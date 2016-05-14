@@ -234,15 +234,3 @@ h3, p, pre {
     flex: 0 0 25%
   }
 }
-
-.parallax {
-  perspective: 100px;
-  -webkit-perspective: 100px;
-}
-.parallax__layer--back {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 200%;
-  margin-top: -5em;
-  margin-top: -5em;
-}
